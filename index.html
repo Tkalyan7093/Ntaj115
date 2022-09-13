@@ -5,19 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <style>
-        h1{
-            color: red;
+        body{
+            background-image: url("../public/images/netflix.png");
+            background-size: cover;
+            color: white;
         }
-        .im{
-            width: 400px;
-            height: 400px;
+        .bag-shade{
+            height: 768px;
+            background-color: rgba(0,0,0,0,7);
+        }
+        .brand-name{
+            font-size: 25px;
+            color: red;
+            font-weight: bold;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
 
         }
+        .login-style{
+            display: flex; 
+        }
+
+        select{
+            margin-right: 20px;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            text-align: center;
+        }
+        h1{
+            width: 500px;
+            font-size: 55px;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+        }
+        a{
+            color:yellow;
+        }
+        h2{
+            margin-right: 30px;
+        }
+       
     </style>
 </head>
 <body>
-    <h1>Welcccccccccccccccome</h1>
-    <img class="im" src="public/images/fashion1.jpg">
+
+       
+    <div class="bag-shade">
+        <header>
+
+
+            <div class="brand-name">
+                Netflix
+            </div>
+
+
+            <div class="login-style">
+                <select class="form-select">
+                    <option>Select Language</option>
+                    <option>English</option>
+                    <option>Teligu</option>
+                    <option>Kannada</option>
+                </select>
+
+                <button class="btn btn-danger">Sign.in</button>
+            </div>
+
+        </header>
+
+
+        <section>
+            <main>
+                <h1>Unlimited movies, TV shows and more.</h1>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <p class="mt-4">Ready to watch? Enter your email to create or restart your membership.Email address</p>
+              
+                <div class=" input-group input-group-lg">
+                    <input type="email" placeholder="Enter your email addres" class="form-control">
+                    <button class="btn btn-danger">
+                        Getstarted<span class="bi bi-chevron-right"></span>
+                    </button>
+                </div>
+            </main>
+        </section>
+   
+
+    
+          <footer>
+    
+            <h2 class="mt-4"> <a href="Amazon.signin.html">Anoter Netflix</a></h2>
+        
+         <br></br>  
+        
+           <h2 class="mt-4"> <a href="netflix.html">Anoter Netflix</a></h2>
+        
+          </footer>
+</div>
+
 </body>
 </html>
